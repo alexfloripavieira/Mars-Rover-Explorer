@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mars Rover Explorer</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Adiciona o arquivo CSS -->
+</head>
+<body>
+    <h1>Mars Rover Explorer</h1>
+
+    <label for="plateauSize">Plateau Size (e.g., 5 5):</label>
+    <input type="text" id="plateauSize"><br>
+
+    <label for "initialPosition">Rover Initial Position (e.g., 1 2 N):</label>
+    <input type="text" id="initialPosition"><br>
+
+    <label for="roverInstructions">Rover Instructions (e.g., LMLMLMLMM):</label>
+    <input type="text" id="roverInstructions"><br>
+
+    <button onclick="setPlateau()">Set Plateau</button>
+    <button onclick="setRoverPosition()">Set Rover Initial Position</button>
+    <button onclick="setRoverInstructions()">Set Rover Instructions</button>
+    <button onclick="explorePlateau()">Explore Plateau</button>
+
+    <div class="plotter" id="plotter">
+      <div class="coordinate-line vertical"></div>
+      <div class="coordinate-line horizontal"></div>
+    </div>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script> <!-- Adiciona o arquivo JavaScript -->
+</body>
+</html>
