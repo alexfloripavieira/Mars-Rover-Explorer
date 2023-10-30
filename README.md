@@ -1,28 +1,29 @@
 # Mars-Rover-Explorer
 
-Bem-vindo ao Projeto Mars Rover! Este é um simulador de navegação de um rover em Marte, onde você pode explorar o terreno marciano e testar suas habilidades de navegação.
+## Mars Rover Project
+Welcome to the Mars Rover Project! This is a simulator for navigating a rover on Mars, where you can explore the Martian terrain and test your navigation skills.
 
-# Como Acessar o Projeto
-Para acessar o projeto, basta abrir o arquivo index.html no seu navegador web. Isso iniciará a aplicação e você verá a interface gráfica do simulador do Mars Rover.
+## How to Access the Project
+To access the project, simply open the index.html file in your web browser. This will start the application, and you will see the graphical interface of the Mars Rover simulator.
 
-# Como Ajustar o Platô
-Para definir o tamanho do platô em Marte, siga estes passos:
+## How to Adjust the Plateau
+To set the size of the plateau on Mars, follow these steps:
 
-No campo "Tamanho do Platô", insira dois números separados por um espaço (por exemplo, "5 5").
-Clique no botão "Definir Platô" para confirmar a configuração.
-Como Ajustar a Configuração Inicial do Rover
-Agora que o platô foi definido, é hora de configurar o rover. Siga estes passos:
+In the "Plateau Size" field, enter two numbers separated by a space (e.g., "5 5").
+Click the "Set Plateau" button to confirm the configuration.
+##How to Adjust the Initial Configuration of the Rover
+Now that the plateau has been defined, it's time to configure the rover. Follow these steps:
 
-No campo "Posição Inicial", insira as coordenadas do rover e sua orientação (por exemplo, "1 2 N").
-Clique no botão "Definir Posição Inicial" para confirmar a configuração.
-Como Setar as Instruções de Navegação
-Com o rover pronto para explorar, você pode fornecer instruções. Siga estes passos:
+In the "Initial Position" field, enter the coordinates of the rover and its orientation (e.g., "1 2 N").
+Click the "Set Initial Position" button to confirm the configuration.
+## How to Set the Navigation Instructions
+With the rover ready to explore, you can provide instructions. Follow these steps:
 
-No campo "Instruções", insira uma sequência de comandos para o rover (por exemplo, "LMLMLMLMM").
-Clique no botão "Definir Instruções" para confirmar a configuração.
-Como Navegar com o Rover
-Agora que todas as configurações estão definidas, você pode iniciar a navegação. Clique no botão "Explorar" para começar a enviar os comandos ao rover. Ele seguirá suas instruções e atualizará sua posição conforme se move pelo platô.
+In the "Instructions" field, enter a sequence of commands for the rover (e.g., "LMLMLMLMM").
+Click the "Set Instructions" button to confirm the configuration.
+## How to Navigate with the Rover
+Now that all configurations are set, you can start the navigation. Click the "Explore" button to begin sending commands to the rover. It will follow your instructions and update its position as it moves across the plateau.
 
-Divirta-se explorando Marte com o Mars Rover Simulator!
+Enjoy exploring Mars with the Mars Rover Simulator!
 
 
