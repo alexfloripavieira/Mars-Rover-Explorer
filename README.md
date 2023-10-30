@@ -4,7 +4,8 @@
 Welcome to the Mars Rover Project! This is a simulator for navigating a rover on Mars, where you can explore the Martian terrain and test your navigation skills.
 
 ## How to Access the Project
-To access the project, simply open the index.html file in your web browser. This will start the application, and you will see the graphical interface of the Mars Rover simulator.
+To access the project, simply open click in this link https://alexfloripavieira.github.io/Mars-Rover-Explorer/src/.
+This will start the application, and you will see the graphical interface of the Mars Rover simulator.
 
 ## How to Adjust the Plateau
 To set the size of the plateau on Mars, follow these steps:
