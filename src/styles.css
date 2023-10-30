@@ -1,29 +1,39 @@
 
 body {
   font-family: Arial, sans-serif;
+  background-image: url('../src/images/nasa-mars-rover-perseverance.jpg'); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o corpo */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  background-attachment: fixed; /* Mantém a imagem fixa enquanto a página é rolada */
 }
 
 h1 {
   text-align: center;
 }
 
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start
+}
+
 .label, input, button {
-  display: block;
-  margin: 10px 0;
+  margin: 10px;
 }
 
 .plotter {
   position: relative;
-  width: 500px;
-  height: 500px;
+  width: 31.25rem;
+  height: 31.25rem;
   border: 2px solid #000;
-  margin: 0 auto;
 }
 
 .rover {
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
   background-color: #00f;
   clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
   transform-origin: 50% 50%;
@@ -31,6 +41,7 @@ h1 {
 }
 
 .rover-text {
+  margin-top: 0.625rem;
   text-align: center;
   font-weight: bold;
   color: #fff;
@@ -38,15 +49,27 @@ h1 {
 
 .coordinate-line {
   position: absolute;
-  background-color: #ccc;
+  background-color: #000;
 }
 
 .vertical {
-  width: 1px;
+  width: 2px;
   height: 100%;
 }
 
 .horizontal {
   width: 100%;
-  height: 1px;
+  height: 2px;
+}
+
+.result {
+  width: 31.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.625rem;
+  font-family: Arial;
+  font-style: bold;
+  color: #000
 }
